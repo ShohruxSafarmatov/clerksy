@@ -19,8 +19,6 @@ body {
 
 .developer-flex{
   display: flex;
-  margin-left: 100px;
-  margin-top: 180px;
   align-items: center;
   margin-bottom: 120px;
 }
@@ -114,7 +112,7 @@ body {
   box-shadow: 5px 5px 20px #E9E4D5;
   border-radius: 15px;
   padding: 45px;
-  height: 400px;
+  height: 370px;
 }
 .set-title{
   font-weight: 600;
@@ -195,7 +193,6 @@ body {
 }
 .easy{
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 .easy-title{
@@ -204,6 +201,7 @@ body {
   line-height: 54px;
   text-align: center;
   color: #163A24;
+  padding-bottom: 30px;
 }
 .easy-text{
   font-size: 18px;
@@ -221,8 +219,51 @@ body {
   text-align: center;
   color: #FBFAF7;
   padding: 15px 25px;
-  margin-left: 470px;
-  
+  margin-left: 450px;
+}
+.form-text{
+  width: 215px;
+  text-align: center;
+}
+.form-text span{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 31px;
+  text-align: center;
+  color: #163A24;
+}
+.follow-up{
+  display: flex;
+}
+.follow-up p {
+  width: 210px;
+  text-align: center;
+}
+.follow-up-text{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 31px;
+  text-align: center;
+  color: #163A24;
+}
+
+.follow-up::before{
+  content: '';
+  display: block;
+  background-image: url(../img/Group.svg);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 40px;
+  margin: 0 80px;
+}
+.follow-up::after{
+  content: '';
+  display: block;
+  background-image: url(..//img/Group.svg);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 40px;
+  margin: 0 80px;
 }
 .book{
   display: flex;
@@ -293,14 +334,13 @@ body {
 }
 #date{
   margin-bottom: 50px;
+  background: #F2EFE6;
 }
 .date{
   display: flex;
-  justify-content: space-around;
-  background: #F2EFE6;
-  padding-top: 60px;
-  padding-bottom: 79px;
-  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 240px;
   
 }
 
@@ -316,6 +356,15 @@ body {
   line-height: 27px;
   color: #163A24;
 }
+.date-item{
+  justify-content: space-between;
+  margin-top: 54px;
+}
+.date-sign{
+  margin-bottom: 11px;
+  text-align: right;
+}
+
 .sign{
   background: #15762E;
   border-radius: 160px;
@@ -324,13 +373,18 @@ body {
   line-height: 22px;
   color: #FBFAF7;
   padding: 15px 25px;
-  margin-left: 370px;
 }
+
 .sign-info{
   font-size: 14px;
   line-height: 21px;
   color: #163A24;
-  margin-top: 30px;
+  width: 490px;
+}
+.sign-info span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #198C36;
 }
 .social{
   margin-right: 80px;
@@ -366,3 +420,6 @@ body {
   color: #198C36;
 }
 
+.social img {
+  padding-left: 10px;
+}
